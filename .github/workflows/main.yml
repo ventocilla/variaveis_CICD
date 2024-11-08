@@ -1,0 +1,10 @@
+name: Como usar varáveis de ambiente 
+on:
+  workflow_dispatch:
+jobs:
+  env:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Execução
+        run: |
+          echo "Valor XPTO"
